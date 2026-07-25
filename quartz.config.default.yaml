@@ -256,7 +256,7 @@ plugins:
   - source: "@quartz-themes/core"
     enabled: true
     options:
-      theme: cybrcore
+      theme: default
       variation: null
 layout:
   groups:
