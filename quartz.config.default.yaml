@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: cybrcore
+  pageTitle: Quartz 5
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: quartz-themes.github.io/cybrcore
+  baseUrl: quartz.jzhao.xyz
   ignorePatterns:
     - private
     - templates
@@ -103,7 +103,7 @@ plugins:
   - source: "@quartz-themes/core"
     enabled: false
     options:
-      theme: cybrcore
+      theme: tokyo-night
       mode: both
   - source: "@quartz-community/remove-draft"
     enabled: true
